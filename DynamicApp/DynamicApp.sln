@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicApp", "DynamicApp\DynamicApp.csproj", "{3FB8ED4B-4474-41F1-A76E-D9F74E6ECB80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicApp", "DynamicApp\DynamicApp.csproj", "{3FB8ED4B-4474-41F1-A76E-D9F74E6ECB80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicApp.Abstractions", "DynamicApp.Abstractions\DynamicApp.Abstractions.csproj", "{3EE36154-8DB1-4BA1-A02E-665837D3FB84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCRPaymentModule", "BCRPaymentModule\BCRPaymentModule.csproj", "{929F50AA-F86E-4242-82C5-623F142E9276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicApp.Shared", "DynamicApp.Shared\DynamicApp.Shared.csproj", "{EB87402A-60E6-4491-B8A7-FDC85E00D9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnotherPaymentModule", "AnotherPaymentModule\AnotherPaymentModule.csproj", "{3C533C0D-4FEA-4D90-8725-95304FC4973B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{3FB8ED4B-4474-41F1-A76E-D9F74E6ECB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FB8ED4B-4474-41F1-A76E-D9F74E6ECB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FB8ED4B-4474-41F1-A76E-D9F74E6ECB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE36154-8DB1-4BA1-A02E-665837D3FB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE36154-8DB1-4BA1-A02E-665837D3FB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE36154-8DB1-4BA1-A02E-665837D3FB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE36154-8DB1-4BA1-A02E-665837D3FB84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929F50AA-F86E-4242-82C5-623F142E9276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929F50AA-F86E-4242-82C5-623F142E9276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929F50AA-F86E-4242-82C5-623F142E9276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929F50AA-F86E-4242-82C5-623F142E9276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB87402A-60E6-4491-B8A7-FDC85E00D9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB87402A-60E6-4491-B8A7-FDC85E00D9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB87402A-60E6-4491-B8A7-FDC85E00D9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB87402A-60E6-4491-B8A7-FDC85E00D9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C533C0D-4FEA-4D90-8725-95304FC4973B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C533C0D-4FEA-4D90-8725-95304FC4973B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C533C0D-4FEA-4D90-8725-95304FC4973B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C533C0D-4FEA-4D90-8725-95304FC4973B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
