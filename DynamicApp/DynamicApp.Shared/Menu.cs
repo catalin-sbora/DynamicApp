@@ -40,7 +40,7 @@ namespace DynamicApp.Shared
             continueLoop = true;            
             do
             {
-                Render();
+                RenderMenuItems();
                 Console.WriteLine("\n\nPlease enter your option: ");
                 int option = ReadOption();
                 var selectedItem = menuItems.ElementAt(option);
@@ -48,8 +48,7 @@ namespace DynamicApp.Shared
 
             } while (continueLoop);
         }
-
-        public void Render()
+        private void RenderMenuItems()
         {
             Console.Clear();
             int index = 0;
@@ -58,6 +57,11 @@ namespace DynamicApp.Shared
                 Console.Write($"{index++}.");
                 menuItem.Render();
             }
+        }
+
+        public void Render()
+        {
+            Console.WriteLine($"{DisplayText}");
         }
     }
 }
